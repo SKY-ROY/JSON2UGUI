@@ -12,9 +12,11 @@
 <h2> How To Use </h2>
 <ol>
  <li>Open the template editor by going to Window -> UI Object Template Editor</li>
- <li>User has two options after launching the editor<ol>
-  <li>Create</li>
- </ol>
+ <li>User has two options after launching the editor
+  <ol>
+   <li>Create a new UI Object Template Container(JSON) file to store Object Template data.</li>
+   <li>Load an existing Container(JSON) to add, edit, delete, and/or save the existing content.</li>
+  </ol>
  </li>
  <li></li>
 </ol>
