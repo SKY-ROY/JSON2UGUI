@@ -18,7 +18,8 @@
    <li>Load an existing Container(JSON) to add, edit, delete, and/or save the existing content.</li>
   </ol>
  </li>
- <li></li>
+ <li>Load a JSON by providing a valid path or creating a new one, by pressing the 'Load JSON' button.</li>
+ <li>Load a JSON by providing a valid path or creating a new one, by pressing the 'Load JSON' button.</li>
 </ol>
 
 <h2> Assumptions </h2>
