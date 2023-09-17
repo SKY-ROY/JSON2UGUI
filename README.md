@@ -11,8 +11,11 @@
 
 <h2> How To Use </h2>
 <ol>
- <li></li>
- <li></li>
+ <li>Open the template editor by going to Window -> UI Object Template Editor</li>
+ <li>User has two options after launching the editor<ol>
+  <li>Create</li>
+ </ol>
+ </li>
  <li></li>
 </ol>
 
