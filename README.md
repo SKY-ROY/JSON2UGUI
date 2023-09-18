@@ -32,5 +32,4 @@
  <li>Each UI Object Template replicates the same properties that of RectTransform i.e. name, templateType, position, size, minAnchor, maxAnchor, pivot, rotateion, and wxale, so they can be applied when instantiated in the scene.</li>
  <li>When a spawn button is pressed for any UI Object Template, it will first check if a canvas is present in the scene or not, if yes, then all the instantiated template will get attached to it, otherwise a new Canvas is created and then the above process is done.</li>
  <li>The JSON file contians an array named UIObjectsTemplates, where all the root UIObjectTemplate objects are stored as elements of the array.</li>
- <li></li>
 </ol>
