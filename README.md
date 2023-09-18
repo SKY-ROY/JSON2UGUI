@@ -19,12 +19,18 @@
   </ol>
  </li>
  <li>Load a JSON by providing a valid path or creating a new one, by pressing the 'Load JSON' button.</li>
- <li>Load a JSON by providing a valid path or creating a new one, by pressing the 'Load JSON' button.</li>
+ <li>On retracting the foldout next to the templates, it will display the list of root templates.</li>
+ <li>We can add a new UI Object Trmplate to the root templates list by pressing the New Object Template button.</li>
+ <li>We can similarly remove an UI object template from the root list as well, by pressing the '-' button.</li>
+ <li>We can replicate the whole UI Object Template creation and removal process for the nested objects, which will add and/or remove them to the children list of the corresponding object respectively.</li>
+ <li>We can instantiate any root object template or nested object template, by pressing the Spawn bhtton.</li>
 </ol>
 
 <h2> Assumptions </h2>
 <ol>
- <li></li>
- <li></li>
+ <li>Each UI Object Template corrsponds to a JSON object which can only be stored inside the UIObjectTemplatesData array. Similarly it also corresponds to a UGUI gameobject.</li>
+ <li>Each UI Object Template replicates the same properties that of RectTransform i.e. name, templateType, position, size, minAnchor, maxAnchor, pivot, rotateion, and wxale, so they can be applied when instantiated in the scene.</li>
+ <li>When a spawn button is pressed for any UI Object Template, it will first check if a canvas is present in the scene or not, if yes, then all the instantiated template will get attached to it, otherwise a new Canvas is created and then the above process is done.</li>
+ <li>The JSON file contians an array named UIObjectsTemplates, where all the root UIObjectTemplate objects are stored as elements of the array.</li>
  <li></li>
 </ol>
